@@ -37,10 +37,6 @@ for i in range(length):
     element_list.append([title, price])
     
 
-# for i,item in enumerate(titles):
-#     element_list=[item.text,prices[i].text]
-#     print(element_list)
-    
 driver.close()   
     
 df = pd.DataFrame(element_list, columns=['Title' , 'Price'])
